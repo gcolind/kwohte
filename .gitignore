@@ -1,0 +1,18 @@
+# No need to add the upgrade folder to the repo #
+wp-content/upgrade/*
+
+# No need to add the uploads folder to the repo #
+wp-content/uploads/*
+
+# No need to add the plugins folder to the repo #
+wp-content/plugins/*
+
+# Sitemaps not needed locally #
+sitemap.xml
+sitemap.xml.gz
+
+# No need for these #
+readme.html
+license.txt
+.log
+.DS_Store
