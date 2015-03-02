@@ -1,0 +1,233 @@
+/*
+ Theme Name:   Radcliffe Child
+ Description:  Radcliffe Child Theme
+ Author:       Colin Gallagher
+ Template:     radcliffe
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  radcliffe-child
+*/
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.post-content{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.comment-content{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.archive-container a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.archive-container a span{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.widget-content{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.blog-title{
+  font-family: 'Pacifico', cursive;
+  text-transform:none;
+}
+
+.post-title{
+  font-family: 'Merriweather', serif;
+}
+
+.header{
+  border-top:5px solid #607D8B;
+}
+
+.single.no-featured-image .header, .page.no-featured-image .header, .error404 .header{
+  border-bottom:none;
+}
+
+.footer + .credits{
+  border-top:none;
+}
+
+.page .footer, .search-no-results .footer, .error404 .footer{
+  border-top:none;
+}
+
+.mobile-search-form{
+  border-top:none;
+}
+
+/* Shape of menu boxes */
+.main-menu > li > a{
+  border-radius:0;
+}
+
+.main-menu ul > li:first-child > a{
+  border-radius:0;
+}
+
+.main-menu ul > li:last-child > a{
+  border-radius:0;
+}
+
+/* Triangle menu dongle */
+.main-menu ul:after {
+	content: "";
+	display: none;
+	position: absolute;
+	top: 0;
+	border: 10px solid transparent;
+	border-bottom-color: green;
+	left: 50%;
+	margin-left: -10px;
+	top: 1px;
+}
+
+/* Tagcloud Styles */
+.tagcloud a{
+  border-radius:0;
+  background:#fff;
+  color:#607D8B;
+  border:2px solid #607D8B;
+}
+
+.tagcloud a:before {
+  display:none;
+}
+
+.tagcloud a:after{
+ display:none;
+}
+
+.tagcloud a:hover{
+
+}
+
+.tagcloud a:hover:before {
+  border-right-color:#607D8B;
+}
+
+/* Link Colors */
+body a{
+  color:#607D8B;
+}
+
+body a:hover{
+  color:#607D8B;
+}
+
+.blog-title a:hover{
+  color:#607D8B;
+}
+
+.main-menu > li:hover > a{
+  background:#607D8B;
+}
+
+.main-menu ul a:hover{
+  background:#607D8B;
+}
+
+a.post-header:hover .post-title{
+  color:#607D8B;
+}
+
+.single .post-meta-top a:hover{
+  color:#607D8B;
+}
+
+.single .post-title a:hover{
+  color:#607D8B;
+}
+
+.post-author-inner h3 a:hover{
+  color:#607D8B;
+}
+
+.author-links a:hover{
+  color:#607D8B;
+}
+
+.post-content fieldset legend{
+  background:#607D8B;
+}
+
+.post-content input[type="submit"]:hover,
+.post-content input[type="reset"]:hover,
+.post-content input[type="button"]:hover{
+  background:#607D8B;
+}
+
+.bypostauthor .by-post-author{
+  background: #607D8B url(images/icons/1x/author-w.png) no-repeat center 7px;
+}
+
+.comment-header cite a:hover{
+  color:#607D8B;
+}
+
+.comment-header span a:hover{
+  color:#607D8B;
+}
+
+.comments-nav-below a:hover{
+  color:#607D8B;
+}
+
+.comment-respond #submit:hover{
+  background-color:#607D8B;
+}
+
+.archive-nav a:hover{
+  background:#607D8B;
+}
+
+.archive-container a:hover{
+  color:#607D8B;
+}
+
+#wp-calendar tfoot a:hover{
+  color:#607D8B;
+}
+
+.mobile-menu a:hover {
+  background:#607D8B;
+}
+
+/* Menu Toggle */
+.nav-toggle.active{
+  background:#607D8B;
+  border-radius:0;
+}
+
+/* Post Feature / Hover Changes */
+a.post-header:hover .post-title{
+  color:#607D8B;
+}
+
+/* Hide POST META */
+.post-meta{
+  display:none;
+}
+
+/* Block Quotes Styles
+.post-content blockquote p{
+  text-align:left;
+} */
+
+/* Search Icon Change
+
+.main-menu a.search-toggle{
+  background:inherit;
+}
+
+.main-menu a.search-toggle:hover{
+  background:inherit;
+}
+
+/*
